@@ -1,0 +1,33 @@
+/* CSS inner logo */
+
+div.inner-logo
+{
+    width: 80%;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: white solid 1px;
+    border-top: white solid 1px;
+}
+
+div.inner-logo div.img
+{
+    width: 30%;
+    min-width: 150px;
+    margin: auto;
+    display: compact;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+div.inner-logo div.img img
+{
+    width: 100%;
+}
+
+main
+{
+    margin: 50px 0px;
+}
